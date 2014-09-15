@@ -1,0 +1,74 @@
+.wrapper {
+	width:400px;
+	margin:0 auto;
+}
+
+body {
+	font-size:0.9em;
+}
+
+h1 {
+	text-align:center;
+}
+
+
+#cmeter {
+    position: relative;
+}
+
+#cmeter .label {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    line-height: 32px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.bigform {
+    border: 1px solid;
+    border-radius: 4px;
+    display: block;
+    font-size: 20px;
+    height: 35px;
+    margin: 7px auto;
+    padding: 3px;
+    text-align: center;
+    width: 90%;
+}
+
+input.compacttext {
+    display: block;
+    float: left;
+    height: 35px;
+    text-align: center;
+    width: 80%;
+    font-size: 29px;
+}
+
+input.compactsubmit {
+    width: 20%;
+    display: block;
+    height: 35px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid;
+    border-radius: 0 10px 10px 0;
+}
+
+#menu{
+    display:none;
+}
+
+#menu form {
+    margin: 10px 0px;
+}
+
+.wrapper > div {
+    width: 95%;
+    margin: 0 auto;
+}
